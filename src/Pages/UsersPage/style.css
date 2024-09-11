@@ -1,0 +1,40 @@
+.usersPage-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.usersPage-listItem {
+    min-width: 70%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.usersPage-userName {
+    min-width: 20%;
+    display: flex;
+    font-weight: bold;
+    text-align: start;
+}
+
+.usersPage-userEmail {
+    min-width: 20%;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+}
+
+.usersPage-userAddress {
+    min-width: 20%;
+    display: flex;
+    text-align: start;
+}
