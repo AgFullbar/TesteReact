@@ -1,0 +1,53 @@
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.filterContainer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-direction: row;
+}
+
+
+.list {
+    width: 60%;
+    list-style-type: none;
+    padding: 0;
+}
+
+.listItem {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.userName {
+    font-weight: bold;
+    min-width: 13%;
+    text-align: start;
+}
+
+.userEmail {
+    margin-left: 10px;
+    color: #777;
+}
