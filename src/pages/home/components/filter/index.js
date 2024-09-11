@@ -2,6 +2,8 @@
 import './style.css'
 
 export default function Filter({name, placeholder}){
+
+    
     return(
         <div className="filterItem">
           <label htmlFor="email-filter" className="label">
